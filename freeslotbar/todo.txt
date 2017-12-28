@@ -1,0 +1,17 @@
+9:30 to 5:30
+free slots
+price adjusting bar
+1.Name:
+2.bar
+3.add one more(check-box)
+4.submit
+store in mysql database in the order:
+name       free slots
+mridul     9:30 to 11:30
+vasu         9:30 to 10:30
+
+make a table to display data
+9:30 to 10:30:mridul,vasu
+10:30 to 11:30:mridul 
+
+
