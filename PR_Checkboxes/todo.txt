@@ -1,0 +1,35 @@
+
+Date: Sliding bar (update:1)
+Name: Mridul
+Checkboxes:
+1. 9:30 to 10:30
+2. 10:30 to 11:30
+3. 11:30 to 12:30
+4. 12:30 to 1:30
+5. 1:30 to 2:30
+6. 2:30 to 3:30
+7. 3:30 to 4:30
+8. 4:30 to 5:30
+Submit button
+
+display it and give options to edit and delete
+Confirm button
+
+
+in mysql make 8 tables for each 1 hour, with their names and date,
+and display each table like
+
+Display: in this way:-
+1. 9:30 to 10:30  -Mridul, Sambbhav,Samarth
+2. 10:30 to 11:30 -Mridul
+3. 11:30 to 12:30 -Sambbhav
+4. 12:30 to 1:30  -Samarth,Sambbhav
+5. 1:30 to 2:30
+6. 2:30 to 3:30
+7. 3:30 to 4:30
+8. 4:30 to 5:30 
+
+
+
+
+
