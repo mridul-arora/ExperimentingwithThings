@@ -5,7 +5,6 @@
 label{display:inline-block;width:100px;margin-bottom:10px;}
 </style>
 
-
 <title>Add Employee</title>
 </head>
 <body>

@@ -11,7 +11,6 @@ if(mysqli_connect_errno($connect))
 		echo 'Failed to connect';
 }
 
-
 //Execute the query
 mysqli_query($connect,"INSERT INTO table1(first_name,last_name,department,email)
 				VALUES('$first_name','$last_name','$department','$email')");
