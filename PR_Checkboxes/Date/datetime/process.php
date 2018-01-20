@@ -1,4 +1,4 @@
- <?php
+<?php
 
 $connect=mysqli_connect('localhost','root','','PR'); //connection string
 if(mysqli_connect_errno($connect))
@@ -22,13 +22,13 @@ if(mysqli_affected_rows($connect) > 0){
 }
 
 ?>
- <div class="container">
+    <div class="container">
         <div class="row">
-              <div class="col-md-3 col-sm-12">
+            <div class="col-md-3 col-sm-12">
 
             </div>
-         </div>
+        </div>
     </div>
-<?php
+    <?php
 
 ?>
