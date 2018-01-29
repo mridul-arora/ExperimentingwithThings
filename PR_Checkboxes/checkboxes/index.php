@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-md-3 col-sm-12">
                     <label for="7"> 3:30 to 4:30</label>
-                    <input type="checkbox" name="techno[]" value="3:30 to 4:30" id="7">
+                    <input type="checkbox" name="techno[]" value="7php" id="7">
                 </div>
                 <div class="col-md-3 col-sm-12">
                     <label for="8"> 4:30 to 5:30</label>

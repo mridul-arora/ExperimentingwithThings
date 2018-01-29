@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>PR:ACM</title>
+    <title>fruits</title>
     <style>
         .col-md-6 {
             font-size: 1.5em;
@@ -63,9 +63,7 @@
                     Select your fruits:
                 </div>
             </div>
-          <?php
-            $name=$_POST['name'];
-           ?>
+
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <label for="one">apple</label>
