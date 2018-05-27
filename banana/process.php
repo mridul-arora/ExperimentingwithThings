@@ -9,6 +9,10 @@ if(mysqli_connect_errno($connect))
 if (isset($_POST['sub']))
     {
 $a=$_POST['name'];
+  /*  $c="";
+    foreach($b = $a){
+        $c.=$b.",";
+    }*/
 mysqli_query($connect,"INSERT INTO `fruits` (`apple`, `banana`, `grapes`) VALUES ('$a', '$a', '$a');");
     }
 
