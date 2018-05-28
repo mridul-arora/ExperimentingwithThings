@@ -1,75 +1,34 @@
+<!DOCTYPE html>
 <html>
-<style>
-div {
-  display: table;
-  display: table-cell;
-  display: table-column;
-  display: table-column-group;
-  display: table-header-group;
-  display: table-row-group;
-  display: table-footer-group;
-  display: table-row;
-  display: table-caption;
 
-}
-    .cell{
-        margin-left: 10px;
-        width:16px;
-        background-color: cornflowerblue;
-        border:4px bold white;
-    }
-</style>
+<head>
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+
+    <title>Add Employee</title>
+</head>
+
 <body>
-    <div style="display: table;">
-  <div style="display: table-row;">
-    <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
 
-  </div>
+    <form method="post" action="process.php">
+        <input type="text" name="array[]" />
+        <br />
+        <input type="text" name="array[]" />
+        <br />
+        <input type="text" name="array[]" />
+        <br />
+        <input type="text" name="array[]" />
+        <br />
+        <input type="submit" value="Add Employee">
+    </form>
 
-  <div style="display: table-row;">
-    <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
-       <div style="display: table-cell;" class="cell">
-      Gross
-    </div>
 
-  </div>
-</div>
-    </body>
+</body>
+
 </html>
