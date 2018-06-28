@@ -17,13 +17,13 @@
 <body>
 
     <form method="post" action="process.php">
-        <input type="text" name="array[]" />
+        <input type="text" maxlength="1" name="a1[]" />
         <br />
-        <input type="text" name="array[]" />
+        <input type="text" maxlength="1" name="a1[]" />
         <br />
-        <input type="text" name="array[]" />
+        <input type="text" maxlength="1" name="a1[]" />
         <br />
-        <input type="text" name="array[]" />
+        <input type="text" maxlength="1" name="a1[]" />
         <br />
         <input type="submit" value="Add Employee">
     </form>
